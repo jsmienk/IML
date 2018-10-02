@@ -1,9 +1,8 @@
 # IML: Number recognition assignment
+Marnick van der Arend (415010) 
+Jeroen Smienk (422516)
 
-    Marnick van der Arend (415010) 
-    Jeroen Smienk (422516)
-
-    Date: 2-10-2018
+Date: 2-10-2018
 
 ## Introduction
 
@@ -32,24 +31,23 @@ For using machine learning we need specific features of every digit. That is why
 
 1. Area
 2. Number of holes (Contour)
-3. Width
-4. Height
-5. Centroid
-6. Circle distance
-7. Rectangle distance
-8. Angle
-9. Radius
-10. Hull radius
+3. Aspect ratio
+4. Centroid
+5. Circle distance
+6. Rectangle distance
+7. Angle
+8. Radius
+9. Hull radius
 
 ### Feature analysis (20%)
 
-- Complete analysis of all of your features (including statistics, tables and graphs
-- Usage of feature selection algorithms from the Scikit-learn library
-- Usage of Principal Component Analysis (PCA)
+- Complete analysis of all of your features (including statistics, tables and graphs)
+- Usage of feature selection algorithms from the Scikit-learn library: [Feature selection][feature selection]
+- Usage of Principal Component Analysis ([PCA][pca])
 
 ### Preprocessing (15%)
 
-- Several preprocessing techniques such as one-hot-encoding, normalization, scaling and standardization
+- Several [preprocessing][preprocessing] techniques such as one-hot-encoding, normalization, scaling and standardization
 
 ### Training/testing (30%)
 
@@ -115,3 +113,7 @@ This folder contains the following subfolders:
 2. Folder dataset-numpy: after extracting features from the images, store the created datasets here (hint: use np.save() function for storing numpy arrays as file or use pandas)
 3. Folder classifier: after the training/testing phase, you can export the (best) trained model to a file (hint: use joblib.dump() function)
 4. Folder shell-scripts: contains scripts for installing and starting the docker container
+
+[feature selection]: http://scikit-learn.org/stable/modules/feature_selection.html
+[pca]: https://en.wikipedia.org/wiki/Principal_component_analysis
+[preprocessing]: http://scikit-learn.org/stable/modules/preprocessing.html
