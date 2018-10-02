@@ -42,16 +42,16 @@ For using machine learning we need specific features of every digit. That is why
 ### Feature analysis (20%)
 
 - Complete analysis of all of your features (including statistics, tables and graphs)
-- Usage of feature selection algorithms from the Scikit-learn library: [Feature selection][feature selection]
-- Usage of Principal Component Analysis ([PCA][pca])
+- Usage of [feature selection algorithms][feature selection] from the Scikit-learn library
+- Usage of [Principal Component Analysis (PCA)][pca]
 
 ### Preprocessing (15%)
 
-- Several [preprocessing][preprocessing] techniques such as one-hot-encoding, normalization, scaling and standardization
+- Several [preprocessing techniques][preprocessing]  such as one-hot-encoding, normalization, scaling and standardization
 
 ### Training/testing (30%)
 
-- Usage of several model selection algorithms (e.g. crossvalidation and KFold)
+- Usage of several [model selection algorithms][msa] (e.g. crossvalidation and KFold)
 - Usage of the classification algorithms that have been explained during this course, including experiments with hyper parameter values
 - Two additional classification algorithms. Also provide some theoretical explanation of those algorithms in your notebooks
 - Usage of GridSearch, ParameterGrid and pipeline to tweak the hyper parameters
@@ -117,3 +117,4 @@ This folder contains the following subfolders:
 [feature selection]: http://scikit-learn.org/stable/modules/feature_selection.html
 [pca]: https://en.wikipedia.org/wiki/Principal_component_analysis
 [preprocessing]: http://scikit-learn.org/stable/modules/preprocessing.html
+[msa]: http://scikit-learn.org/stable/tutorial/statistical_inference/model_selection.html
