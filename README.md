@@ -1,5 +1,7 @@
 # IML: Number recognition assignment
-Authors: Marnick van der Arend (415010) & Jeroen Smienk (422516)
+Marnick van der Arend (415010) 
+Jeroen Smienk (422516)
+
 Date: 2-10-2018
 
 ## Introduction
@@ -18,32 +20,52 @@ Goal of the project is to write a digit recognizer using SimpleCV and ScikitLear
 ### Feature extraction (25%)
 
 #### Digit extraction steps
+
 1. Preprosessing files by reading them from a directory. Extracting the filename and the image and placing them as a tuple (label, Image) in an array.
 2. Modifying the Image by using binarize, erode and dilate
 3. Splitting the image into four 32x32 pixel parts, each containing only one digit
 
 #### Feature extraction
+
 For using machine learning we need specific features of every digit. That is why we are going to use different feature metrics so we can train the machine. We are going to extract the following features:
+
 1. Area
 2. Number of holes (Contour)
-3. Width
-4. Height
-5. Centroid
-6. Circle distance
-7. Rectangle distance
-8. Angle
-9. Radius
-10. Hull radius
+3. Aspect ratio
+4. Centroid
+5. Circle distance
+6. Rectangle distance
+7. Angle
+8. Radius
+9. Hull radius
 
 ### Feature analysis (20%)
 
+- Complete analysis of all of your features (including statistics, tables and graphs)
+- Usage of [feature selection algorithms][feature selection] from the Scikit-learn library
+- Usage of [Principal Component Analysis (PCA)][pca]
+
 ### Preprocessing (15%)
+
+- Several [preprocessing techniques][preprocessing]  such as one-hot-encoding, normalization, scaling and standardization
 
 ### Training/testing (30%)
 
+- Usage of several [model selection algorithms][msa] (e.g. crossvalidation and KFold)
+- Usage of the classification algorithms that have been explained during this course, including experiments with hyper parameter values
+- Two additional classification algorithms. Also provide some theoretical explanation of those algorithms in your notebooks
+- Usage of GridSearch, ParameterGrid and pipeline to tweak the hyper parameters
+- Comparison of the result of the different classifiers with the different hyper parameter values with observations and a conclusion
+- An export of your best classifier
+
 ### Implementation (10%)
 
-======
+- Simple program in which a user can upload/select an image and the program will show the zipcode of the image
+- Usage of Jupyter widget controls
+
+
+# Installation guide
+
 ## Installation and starting the container
 
 ### Before installing the container
@@ -91,3 +113,8 @@ This folder contains the following subfolders:
 2. Folder dataset-numpy: after extracting features from the images, store the created datasets here (hint: use np.save() function for storing numpy arrays as file or use pandas)
 3. Folder classifier: after the training/testing phase, you can export the (best) trained model to a file (hint: use joblib.dump() function)
 4. Folder shell-scripts: contains scripts for installing and starting the docker container
+
+[feature selection]: http://scikit-learn.org/stable/modules/feature_selection.html
+[pca]: https://en.wikipedia.org/wiki/Principal_component_analysis
+[preprocessing]: http://scikit-learn.org/stable/modules/preprocessing.html
+[msa]: http://scikit-learn.org/stable/tutorial/statistical_inference/model_selection.html
