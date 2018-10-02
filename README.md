@@ -1,6 +1,9 @@
 # IML: Number recognition assignment
-Authors: Marnick van der Arend (415010) & Jeroen Smienk (422516)
-Date: 2-10-2018
+
+    Marnick van der Arend (415010) 
+    Jeroen Smienk (422516)
+
+    Date: 2-10-2018
 
 ## Introduction
 
@@ -18,12 +21,15 @@ Goal of the project is to write a digit recognizer using SimpleCV and ScikitLear
 ### Feature extraction (25%)
 
 #### Digit extraction steps
+
 1. Preprosessing files by reading them from a directory. Extracting the filename and the image and placing them as a tuple (label, Image) in an array.
 2. Modifying the Image by using binarize, erode and dilate
 3. Splitting the image into four 32x32 pixel parts, each containing only one digit
 
 #### Feature extraction
+
 For using machine learning we need specific features of every digit. That is why we are going to use different feature metrics so we can train the machine. We are going to extract the following features:
+
 1. Area
 2. Number of holes (Contour)
 3. Width
@@ -37,13 +43,31 @@ For using machine learning we need specific features of every digit. That is why
 
 ### Feature analysis (20%)
 
+- Complete analysis of all of your features (including statistics, tables and graphs
+- Usage of feature selection algorithms from the Scikit-learn library
+- Usage of Principal Component Analysis (PCA)
+
 ### Preprocessing (15%)
+
+- Several preprocessing techniques such as one-hot-encoding, normalization, scaling and standardization
 
 ### Training/testing (30%)
 
+- Usage of several model selection algorithms (e.g. crossvalidation and KFold)
+- Usage of the classification algorithms that have been explained during this course, including experiments with hyper parameter values
+- Two additional classification algorithms. Also provide some theoretical explanation of those algorithms in your notebooks
+- Usage of GridSearch, ParameterGrid and pipeline to tweak the hyper parameters
+- Comparison of the result of the different classifiers with the different hyper parameter values with observations and a conclusion
+- An export of your best classifier
+
 ### Implementation (10%)
 
-======
+- Simple program in which a user can upload/select an image and the program will show the zipcode of the image
+- Usage of Jupyter widget controls
+
+
+# Installation guide
+
 ## Installation and starting the container
 
 ### Before installing the container
