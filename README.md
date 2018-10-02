@@ -1,9 +1,49 @@
-# Introduction to Machine Learning (Classification Assignment)
-Author: Evert Duipmans
-Date: 17-9-2018
+# IML: Number recognition assignment
+Authors: Marnick van der Arend (415010) & Jeroen Smienk (422516)
+Date: 2-10-2018
+
+## Introduction
 
 Goal of the project is to write a digit recognizer using SimpleCV and ScikitLearn. This project works with a docker container in which the following libraries are installed: Python 2.7, Jupyter Notebook, SimpleCV, NumPy, Pandas, SciKitLearn and Matplotlib. 
 
+## Observations of the given dataset
+- Every image has a size of 128x32 pixels
+- The filename of the image describes the labels of the digits in the image
+- There are 4 digits in an image
+- Every digit has a size of 32x32 pixels
+- Every image has a different brightness (light, normal, dark)
+
+## Approach
+
+### Feature extraction (25%)
+
+#### Digit extraction steps
+1. Preprosessing files by reading them from a directory. Extracting the filename and the image and placing them as a tuple (label, Image) in an array.
+2. Modifying the Image by using binarize, erode and dilate
+3. Splitting the image into four 32x32 pixel parts, each containing only one digit
+
+#### Feature extraction
+For using machine learning we need specific features of every digit. That is why we are going to use different feature metrics so we can train the machine. We are going to extract the following features:
+1. Area
+2. Number of holes (Contour)
+3. Width
+4. Height
+5. Centroid
+6. Circle distance
+7. Rectangle distance
+8. Angle
+9. Radius
+10. Hull radius
+
+### Feature analysis (20%)
+
+### Preprocessing (15%)
+
+### Training/testing (30%)
+
+### Implementation (10%)
+
+======
 ## Installation and starting the container
 
 ### Before installing the container
