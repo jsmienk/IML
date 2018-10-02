@@ -15,12 +15,14 @@ Goal of the project is to write a digit recognizer using SimpleCV and ScikitLear
 
 ## Approach
 
-### Digit extraction steps
+### Feature extraction (25%)
+
+#### Digit extraction steps
 1. Preprosessing files by reading them from a directory. Extracting the filename and the image and placing them as a tuple (label, Image) in an array.
 2. Modifying the Image by using binarize, erode and dilate
 3. Splitting the image into four 32x32 pixel parts, each containing only one digit
 
-### Feature extraction
+#### Feature extraction
 For using machine learning we need specific features of every digit. That is why we are going to use different feature metrics so we can train the machine. We are going to extract the following features:
 1. Area
 2. Number of holes (Contour)
@@ -33,6 +35,15 @@ For using machine learning we need specific features of every digit. That is why
 9. Radius
 10. Hull radius
 
+### Feature analysis (20%)
+
+### Preprocessing (15%)
+
+### Training/testing (30%)
+
+### Implementation (10%)
+
+======
 ## Installation and starting the container
 
 ### Before installing the container
