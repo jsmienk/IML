@@ -38,6 +38,7 @@ For using machine learning we need specific features of every digit. That is why
 7. Angle
 8. Radius
 9. Hull radius
+10. Section weight
 
 ### Feature analysis (20%)
 
