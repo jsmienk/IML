@@ -49,7 +49,7 @@ For using machine learning we need specific features of every digit. That is why
 
 ### Feature analysis (20%)
 
-![Progress](http://progressed.io/bar/50)
+![Progress](http://progressed.io/bar/67)
 
 - ✔️ Complete analysis of all of your features (including statistics, tables and graphs)
 - ✔️ Usage of [feature selection algorithms][feature selection] from the Scikit-learn library
