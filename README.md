@@ -52,7 +52,7 @@ For using machine learning we need specific features of every digit. That is why
 ![Progress](http://progressed.io/bar/50)
 
 - ✔️ Complete analysis of all of your features (including statistics, tables and graphs)
-- Usage of [feature selection algorithms][feature selection] from the Scikit-learn library
+- ✔️ Usage of [feature selection algorithms][feature selection] from the Scikit-learn library
 - Usage of [Principal Component Analysis (PCA)][pca]
 
 ### Preprocessing (15%)
