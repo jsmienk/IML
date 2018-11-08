@@ -19,7 +19,7 @@ Goal of the project is to write a digit recognizer using SimpleCV and ScikitLear
 
 ### Feature extraction (25%)
 
-![Progress](http://progressed.io/bar/95)
+![Progress](http://progressed.io/bar/98)
 
 #### Digit extraction steps
 
@@ -31,7 +31,7 @@ Goal of the project is to write a digit recognizer using SimpleCV and ScikitLear
 
 #### Feature extraction
 
-![Progress](http://progressed.io/bar/90)
+![Progress](http://progressed.io/bar/95)
 
 For using machine learning we need specific features of every digit. That is why we are going to use different feature metrics so we can train the machine. We are going to extract the following features:
 
@@ -49,7 +49,7 @@ For using machine learning we need specific features of every digit. That is why
 
 ### Feature analysis (20%)
 
-![Progress](http://progressed.io/bar/67)
+![Progress](http://progressed.io/bar/75)
 
 - ✔️ Complete analysis of all of your features (including statistics, tables and graphs)
 - ✔️ Usage of [feature selection algorithms][feature selection] from the Scikit-learn library
@@ -63,18 +63,18 @@ For using machine learning we need specific features of every digit. That is why
 
 ### Training/testing (30%)
 
-![Progress](http://progressed.io/bar/70)
+![Progress](http://progressed.io/bar/90)
 
 - Usage of several [model selection algorithms][msa] (e.g. crossvalidation and KFold)
 - ✔️ Usage of the classification algorithms that have been explained during this course, including experiments with hyper parameter values
-- Two additional classification algorithms. Also provide some theoretical explanation of those algorithms in your notebooks
-- Usage of GridSearch, ParameterGrid and pipeline to tweak the hyper parameters
+- ✔️ Two additional classification algorithms. Also provide some theoretical explanation of those algorithms in your notebooks
+- ✔️ Usage of GridSearch, ParameterGrid and pipeline to tweak the hyper parameters
 - ✔️ Comparison of the result of the different classifiers with the different hyper parameter values with observations and a conclusion
-- An export of your best classifier
+- ✔️ An export of your best classifier
 
 ### Implementation (10%)
 
-![Progress](http://progressed.io/bar/0)
+![Progress](http://progressed.io/bar/95)
 
 - Simple program in which a user can upload/select an image and the program will show the zipcode of the image
 - Usage of Jupyter widget controls
