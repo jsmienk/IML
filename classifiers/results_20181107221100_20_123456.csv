@@ -1,45 +1,67 @@
 rank,classifier,options,dataset,score
-1,SVM/C,"{'kernel': 'rbf', 'C': 3.8000000000000003, 'gamma': 0.1}",v6,0.983072916667
-2,SVM/C,"{'kernel': 'rbf', 'C': 2.9000000000000004, 'gamma': 0.1}",Cleaned+Extended+MinMaxScaled,0.981770833333
-3,SVM/C,"{'kernel': 'rbf', 'C': 5.7000000000000002, 'gamma': 0.2}",v4,0.979166666667
-4,kNN,{'n_neighbors': 1},v6,0.97265625
-5,SVM/C,"{'kernel': 'rbf', 'C': 4.0999999999999996, 'gamma': 0.5}",Cleaned+MinMaxScaled,0.97265625
-6,kNN,{'n_neighbors': 3},Cleaned+Extended+MinMaxScaled,0.970052083333
-7,RandomForest,{'n_estimators': 95},v6,0.969401041667
-8,kNN,{'n_neighbors': 1},v4,0.968098958333
-9,RandomForest,{'n_estimators': 82},Cleaned+Extended+MinMaxScaled,0.967447916667
-10,RandomForest,{'n_estimators': 68},v4,0.965494791667
-11,AdaBoost,"{'base_estimator': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
-            max_depth=None, max_features='auto', max_leaf_nodes=None,
-            min_impurity_decrease=0.0, min_impurity_split=None,
-            min_samples_leaf=1, min_samples_split=2,
-            min_weight_fraction_leaf=0.0, n_estimators=81, n_jobs=1,
-            oob_score=False, random_state=None, verbose=0,
-            warm_start=False), 'algorithm': 'SAMME'}",Cleaned+Extended+MinMaxScaled,0.96484375
-12,AdaBoost,"{'base_estimator': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
-            max_depth=None, max_features='auto', max_leaf_nodes=None,
-            min_impurity_decrease=0.0, min_impurity_split=None,
-            min_samples_leaf=1, min_samples_split=2,
-            min_weight_fraction_leaf=0.0, n_estimators=81, n_jobs=1,
-            oob_score=False, random_state=None, verbose=0,
-            warm_start=False), 'algorithm': 'SAMME'}",v4,0.96484375
+1,SVM/C,"{'kernel': 'rbf', 'C': 3.8000000000000012, 'gamma': 0.1}",v6,0.983072916667
+2,SVM/C,"{'kernel': 'rbf', 'C': 2.9000000000000008, 'gamma': 0.1}",Cleaned+Extended+MinMaxScaled,0.981770833333
+3,SVM/C,"{'kernel': 'rbf', 'C': 1.2000000000000004, 'gamma': 0.1}",v7,0.98046875
+4,SVM/C,"{'kernel': 'rbf', 'C': 1.0000000000000004, 'gamma': 0.1}",v8,0.979817708333
+5,SVM/C,"{'kernel': 'rbf', 'C': 1.7000000000000006, 'gamma': 0.1}",v4,0.977864583333
+6,RandomForest,{'n_estimators': 99},v7,0.975911458333
+7,RandomForest,{'n_estimators': 88},v8,0.974609375
+8,kNN,{'n_neighbors': 4},v8,0.973958333333
+9,kNN,{'n_neighbors': 4},v7,0.973958333333
+10,kNN,{'n_neighbors': 1},v6,0.97265625
+11,kNN,{'n_neighbors': 3},Cleaned+Extended+MinMaxScaled,0.970052083333
+12,RandomForest,{'n_estimators': 78},v6,0.969401041667
 13,AdaBoost,"{'base_estimator': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
             max_depth=None, max_features='auto', max_leaf_nodes=None,
             min_impurity_decrease=0.0, min_impurity_split=None,
             min_samples_leaf=1, min_samples_split=2,
             min_weight_fraction_leaf=0.0, n_estimators=81, n_jobs=1,
             oob_score=False, random_state=None, verbose=0,
-            warm_start=False), 'algorithm': 'SAMME'}",v6,0.9609375
-14,kNN,{'n_neighbors': 1},Cleaned+MinMaxScaled,0.956380208333
-15,SGD,{'max_iter': 300},Cleaned+MinMaxScaled,0.953125
-16,AdaBoost,"{'base_estimator': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            warm_start=False), 'algorithm': 'SAMME'}",v8,0.969401041667
+14,kNN,{'n_neighbors': 1},v4,0.968098958333
+15,AdaBoost,"{'base_estimator': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
             max_depth=None, max_features='auto', max_leaf_nodes=None,
             min_impurity_decrease=0.0, min_impurity_split=None,
             min_samples_leaf=1, min_samples_split=2,
             min_weight_fraction_leaf=0.0, n_estimators=81, n_jobs=1,
             oob_score=False, random_state=None, verbose=0,
-            warm_start=False), 'algorithm': 'SAMME'}",Cleaned+MinMaxScaled,0.951822916667
-17,RandomForest,{'n_estimators': 95},Cleaned+MinMaxScaled,0.951171875
-18,SGD,{'max_iter': 400},v4,0.94921875
-19,SGD,{'max_iter': 500},v6,0.948567708333
-20,SGD,{'max_iter': 300},Cleaned+Extended+MinMaxScaled,0.948567708333
+            warm_start=False), 'algorithm': 'SAMME'}",v7,0.967447916667
+16,RandomForest,{'n_estimators': 93},Cleaned+Extended+MinMaxScaled,0.965494791667
+17,RandomForest,{'n_estimators': 83},v4,0.96484375
+18,SVM/C,"{'kernel': 'linear', 'C': 3.4500000000000011, 'gamma': 0.1}",Cleaned+MinMaxScaled,0.96484375
+19,AdaBoost,"{'base_estimator': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=81, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False), 'algorithm': 'SAMME'}",v6,0.9609375
+20,AdaBoost,"{'base_estimator': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=81, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False), 'algorithm': 'SAMME'}",Cleaned+Extended+MinMaxScaled,0.9609375
+21,SGD,{'max_iter': 600},v7,0.957682291667
+22,SGD,{'max_iter': 400},v8,0.95703125
+23,kNN,{'n_neighbors': 1},Cleaned+MinMaxScaled,0.956380208333
+24,AdaBoost,"{'base_estimator': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=81, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False), 'algorithm': 'SAMME'}",v4,0.955078125
+25,SGD,{'max_iter': 500},Cleaned+MinMaxScaled,0.951822916667
+26,RandomForest,{'n_estimators': 72},Cleaned+MinMaxScaled,0.951171875
+27,SGD,{'max_iter': 400},Cleaned+Extended+MinMaxScaled,0.950520833333
+28,SGD,{'max_iter': 300},v4,0.948567708333
+29,SGD,{'max_iter': 700},v6,0.948567708333
+30,AdaBoost,"{'base_estimator': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=81, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False), 'algorithm': 'SAMME'}",Cleaned+MinMaxScaled,0.947916666667
