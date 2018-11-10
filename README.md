@@ -19,7 +19,7 @@ Goal of the project is to write a digit recognizer using SimpleCV and ScikitLear
 
 ### Feature extraction (25%)
 
-![Progress](http://progressed.io/bar/98)
+![Progress](http://progressed.io/bar/100)
 
 #### Digit extraction steps
 
@@ -31,29 +31,32 @@ Goal of the project is to write a digit recognizer using SimpleCV and ScikitLear
 
 #### Feature extraction
 
-![Progress](http://progressed.io/bar/95)
+![Progress](http://progressed.io/bar/100)
 
 For using machine learning we need specific features of every digit. That is why we are going to use different feature metrics so we can train the machine. We are going to extract the following features:
 
 1. Area
-2. Contours
-3. Aspect ratio
-4. Centroid (x, y)
-5. Circle distance
-6. Rectangle distance
-7. Angle
-8. Radius
-9. Hull radius
-10. Number of holes
-11. Sum pixel count grid
+2. Width
+3. Contours
+4. Aspect ratio
+5. Centroid (x, y)
+6. Circle distance
+7. Rectangle distance
+8. Angle
+9. Radius
+10. Hull radius
+11. Corners
+12. Circles
+13. Number of holes
+14. Sum pixel count grid
 
 ### Feature analysis (20%)
 
-![Progress](http://progressed.io/bar/75)
+![Progress](http://progressed.io/bar/100)
 
 - ✔️ Complete analysis of all of your features (including statistics, tables and graphs)
 - ✔️ Usage of [feature selection algorithms][feature selection] from the Scikit-learn library
-- Usage of [Principal Component Analysis (PCA)][pca]
+- ✔️ Usage of [Principal Component Analysis (PCA)][pca]
 
 ### Preprocessing (15%)
 
@@ -63,9 +66,9 @@ For using machine learning we need specific features of every digit. That is why
 
 ### Training/testing (30%)
 
-![Progress](http://progressed.io/bar/90)
+![Progress](http://progressed.io/bar/100)
 
-- Usage of several [model selection algorithms][msa] (e.g. crossvalidation and KFold)
+- ✔️ Usage of several [model selection algorithms][msa] (e.g. crossvalidation and KFold)
 - ✔️ Usage of the classification algorithms that have been explained during this course, including experiments with hyper parameter values
 - ✔️ Two additional classification algorithms. Also provide some theoretical explanation of those algorithms in your notebooks
 - ✔️ Usage of GridSearch, ParameterGrid and pipeline to tweak the hyper parameters
@@ -74,7 +77,7 @@ For using machine learning we need specific features of every digit. That is why
 
 ### Implementation (10%)
 
-![Progress](http://progressed.io/bar/95)
+![Progress](http://progressed.io/bar/100)
 
 - Simple program in which a user can upload/select an image and the program will show the zipcode of the image
 - Usage of Jupyter widget controls
